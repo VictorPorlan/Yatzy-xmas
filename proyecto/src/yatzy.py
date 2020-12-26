@@ -19,52 +19,34 @@ class Yatzy:
 
     @staticmethod
     def ones(*dices):
-        result = 0
-        for number in dices:
-            if number == 1:
-                result += number
-        return result
+        amount = dices.count(1)
+        return amount * 1
     
 
     @staticmethod
     def twos(*dices):
-        result = 0
-        for number in dices:
-            if number == 2:
-                result += number
-        return result
+        amount = dices.count(2)
+        return amount * 2
     
     @staticmethod
     def threes(*dices):
-        result = 0
-        for number in dices:
-            if number == 3:
-                result += number
-        return result
+        amount = dices.count(3)
+        return amount * 3
 
     
     def fours(self, *dices):
-        result = 0
-        for number in self.dices:
-            if number == 4:
-                result += number
-        return result
+        amount = self.dices.count(4)
+        return amount * 4
     
     
     def fives(self, *dices):
-        result = 0
-        for number in self.dices:
-            if number == 5:
-                result += number
-        return result
+        amount = self.dices.count(5)
+        return amount * 5
     
     
     def sixes(self, *dices):
-        result = 0
-        for number in self.dices:
-            if number == 6:
-                result += number
-        return result
+        amount = self.dices.count(6)
+        return amount * 6
     
     @staticmethod
     def score_pair( d1,  d2,  d3,  d4,  d5):
