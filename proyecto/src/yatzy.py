@@ -12,10 +12,11 @@ class Yatzy:
 
     @staticmethod
     def yatzy(*dices):
-        return 50
-                
-                
-    
+        if len(set(dices)) == 1:
+            return 50
+        return 0
+
+
     @staticmethod
     def ones(*dices):
         result = 0
