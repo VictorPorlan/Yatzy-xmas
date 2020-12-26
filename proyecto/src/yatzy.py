@@ -51,7 +51,7 @@ class Yatzy:
     def score_pair(*dices):
         ordered_dices = sorted(dices, reverse=True)
         for number in ordered_dices:
-            if ordered_dices.count(number) == 2:
+            if ordered_dices.count(number) >= 2:
                 return number * 2
         return 0
     
