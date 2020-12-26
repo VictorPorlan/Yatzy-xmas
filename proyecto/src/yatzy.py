@@ -21,7 +21,6 @@ class Yatzy:
     def ones(*dices):
         amount = dices.count(1)
         return amount * 1
-    
 
     @staticmethod
     def twos(*dices):
@@ -34,17 +33,17 @@ class Yatzy:
         return amount * 3
 
     
-    def fours(self, *dices):
+    def fours(self):
         amount = self.dices.count(4)
         return amount * 4
     
     
-    def fives(self, *dices):
+    def fives(self):
         amount = self.dices.count(5)
         return amount * 5
     
     
-    def sixes(self, *dices):
+    def sixes(self):
         amount = self.dices.count(6)
         return amount * 6
     
