@@ -1,2 +1,2 @@
 # Yatzy-xmas
-Kata de refactorización programa de Yatzy y sus casos test
+En este Kata de [emilybache](https://github.com/emilybache/Yatzy-Refactoring-Kata) tenemos que refactorizar un programa que calcula la puntuación de una tirada dependiendo de qué jugada uses. El código que nos dan, pese a que funciona, está lleno de code smells y malas prácticas de programación, y nuestra tarea es eliminar todos los problemas que hay sin cambiar el funcionamiento del programa. Los casos test también tienen probleas en los nombres de las variables y son inconsistentes, también hay que refactorizarlos. Este programa no ha de calcular cual es la jugada que más puntos va a conseguir, simplemente ha de calcular como toca cada jugada cuando la invoques.
